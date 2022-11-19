@@ -1,0 +1,17 @@
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: $secondaryFont;
+    font-size: $baseFontSize;
+    color: $quinary;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
