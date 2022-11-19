@@ -1,0 +1,22 @@
+nav {
+    background-color: $primary;
+    color: $quaternary;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.navList {
+    display: flex;
+    font-size: 0.8rem;
+    padding-top: 4px;
+
+    li {
+        padding-left: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.1rem;
+    }
+}

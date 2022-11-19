@@ -298,6 +298,10 @@ p {
   margin: 0;
 }
 
+a {
+  color: #ffffff;
+}
+
 .wrapper {
   max-width: 1280px;
   width: 90%;
@@ -312,4 +316,26 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+nav {
+  background-color: #ebb6a1;
+  color: #ffffff;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.navList {
+  display: flex;
+  font-size: 0.8rem;
+  padding-top: 4px;
+}
+.navList li {
+  padding-left: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }/*# sourceMappingURL=styles.css.map */
