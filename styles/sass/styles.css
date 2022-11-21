@@ -298,10 +298,6 @@ p {
   margin: 0;
 }
 
-a {
-  color: #ffffff;
-}
-
 .wrapper {
   max-width: 1280px;
   width: 90%;
@@ -338,4 +334,31 @@ nav {
   padding-left: 20px;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+}
+.navList li a {
+  color: #ffffff;
+}
+
+header {
+  color: #ebb6a1;
+  font-family: "DM Serif Display", serif;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about {
+  background-color: #fffbf7;
+  padding: 150px 120px;
+}
+.about h2 {
+  color: #ebb6a1;
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+}
+.about p {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+}
+.about p a {
+  color: #af8a7e;
 }/*# sourceMappingURL=styles.css.map */

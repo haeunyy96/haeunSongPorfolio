@@ -1,0 +1,20 @@
+.about {
+    background-color: $tertiary;
+    padding: 150px 120px;
+
+    h2 {
+        color: $primary;
+        font-family: $primaryFont;
+        font-size: 2rem;
+    }
+
+
+    p {
+        font-size: 0.8rem;
+        padding-bottom: 10px;
+
+        a {
+            color: $secondary;
+        }
+    }
+}

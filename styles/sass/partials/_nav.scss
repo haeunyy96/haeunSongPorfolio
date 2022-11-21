@@ -18,5 +18,9 @@ nav {
         padding-left: 20px;
         text-transform: uppercase;
         letter-spacing: 0.1rem;
+
+        a {
+            color: $quaternary;
+        }
     }
 }
