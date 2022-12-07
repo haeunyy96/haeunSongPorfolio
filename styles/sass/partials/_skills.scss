@@ -9,10 +9,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 50px;
 
     li {
-        width: calc((100%/5) - 20px);
+        width: 20%;
         padding-bottom: 20px;
     }
 
