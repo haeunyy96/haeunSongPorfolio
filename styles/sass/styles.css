@@ -348,7 +348,7 @@ header {
 
 .about {
   background-color: #fffbf7;
-  padding: 150px 120px;
+  padding: 150px 80px;
 }
 .about h2 {
   color: #ebb6a1;
@@ -361,4 +361,18 @@ header {
 }
 .about p a {
   color: #af8a7e;
+}
+
+.aboutFlex {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutFlex .aboutText {
+  width: 60%;
+}
+.aboutFlex .aboutImage {
+  width: 30%;
+}
+.aboutFlex .aboutImage img {
+  max-width: 100%;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,6 @@
 .about {
     background-color: $tertiary;
-    padding: 150px 120px;
+    padding: 150px 80px;
 
     h2 {
         color: $primary;
@@ -15,6 +15,23 @@
 
         a {
             color: $secondary;
+        }
+    }
+}
+
+.aboutFlex {
+    display: flex;
+    justify-content: space-between;
+    
+    .aboutText {
+        width: 60%;
+    }
+
+    .aboutImage {
+        width: 30%;
+
+        img {
+            max-width: 100%;
         }
     }
 }
