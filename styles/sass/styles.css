@@ -298,6 +298,11 @@ p {
   margin: 0;
 }
 
+h4 {
+  font-size: 2rem;
+  font-family: "DM Serif Display", serif;
+}
+
 .wrapper {
   max-width: 1280px;
   width: 90%;
@@ -348,7 +353,7 @@ header {
 
 .about {
   background-color: #fffbf7;
-  padding: 150px 80px;
+  padding: 80px 80px;
 }
 .about h2 {
   color: #ebb6a1;
@@ -375,4 +380,28 @@ header {
 }
 .aboutFlex .aboutImage img {
   max-width: 100%;
+}
+
+.skills {
+  background-color: #ebb6a1;
+  color: #ffffff;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+.skillsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.skillsFlex li {
+  width: calc(20% - 20px);
+  padding-bottom: 20px;
+}
+.skillsFlex p {
+  padding-bottom: 5px;
+}
+.skillsFlex i {
+  font-size: 1.5rem;
 }/*# sourceMappingURL=styles.css.map */
