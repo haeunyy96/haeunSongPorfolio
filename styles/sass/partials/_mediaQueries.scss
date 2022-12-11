@@ -1,0 +1,42 @@
+@media (max-width:750px) {
+    .navList {
+        display: none;
+    }
+
+    .menuIcon {
+        display: inline-block;
+    }
+
+    .slideOutNav {
+        background-color: $secondary;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        padding: 30px 50px;
+        width: 100%;
+        max-width: 500px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        z-index: 20;
+        right: -600px;
+        transition: 0.5s;
+    }
+
+    .open {
+        right: 0;
+    }
+
+    .slideOutNav button {
+        align-self: flex-end;
+    }
+
+    .slideOutNav a {
+        line-height: 2.2rem;
+    }
+
+    .slideOutNav a:hover {
+        color: $primary;
+        transition: 0.3s;
+    }
+}

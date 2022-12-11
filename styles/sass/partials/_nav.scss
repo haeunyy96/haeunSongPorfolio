@@ -24,3 +24,20 @@ nav {
         }
     }
 }
+
+.menuIcon,
+.slideOutNav {
+    display: none;
+}
+
+.menuIcon,
+.menuClose {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: $quaternary;
+}
+
+.slideOutNav {
+    color: $quaternary;
+}
