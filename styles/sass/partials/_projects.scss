@@ -13,5 +13,17 @@
     
     li {
         width: 48%;
+
+        button {
+            color: $secondary;
+            background-color: transparent;
+            border: 1px solid $secondary;
+
+            &:hover {
+                color: $tertiary;
+                background-color: $secondary;
+                transition:  0.4s;
+            }
+        }
     }
 }

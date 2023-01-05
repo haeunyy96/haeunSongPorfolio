@@ -317,11 +317,24 @@ ul {
 
 a {
   text-decoration: none;
+  color: #fffbf7;
+}
+
+button {
+  font-family: "Jost", sans-serif;
+  font-size: 1rem;
+  padding: 10px 30px;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 nav {
   background-color: #ebb6a1;
-  color: #ffffff;
+  color: #fffbf7;
 }
 
 .navBar {
@@ -341,7 +354,11 @@ nav {
   letter-spacing: 0.1rem;
 }
 .navList li a {
-  color: #ffffff;
+  color: #fffbf7;
+}
+.navList li a:hover {
+  color: #af8a7e;
+  transition: 0.4s;
 }
 
 .menuIcon,
@@ -349,16 +366,15 @@ nav {
   display: none;
 }
 
-.menuIcon,
-.menuClose {
+.menuIcon {
   background-color: transparent;
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: #fffbf7;
+  border: none;
 }
-
-.slideOutNav {
-  color: #ffffff;
+.menuIcon:hover {
+  color: #af8a7e;
 }
 
 @media (max-width: 750px) {
@@ -369,11 +385,11 @@ nav {
     display: inline-block;
   }
   .slideOutNav {
-    background-color: #af8a7e;
+    background-color: #ebb6a1;
     min-height: 100vh;
     position: fixed;
     top: 0;
-    padding: 30px 50px;
+    padding: 20px 30px 0 50px;
     width: 100%;
     max-width: 500px;
     font-weight: bold;
@@ -381,27 +397,42 @@ nav {
     flex-direction: column;
     z-index: 20;
     right: -600px;
-    transition: 0.5s;
+    transition: 0.4s;
   }
   .open {
     right: 0;
   }
   .slideOutNav button {
     align-self: flex-end;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    color: #fffbf7;
+    border: none;
+  }
+  .slideOutNav button:hover {
+    color: #af8a7e;
   }
   .slideOutNav a {
+    color: #fffbf7;
     line-height: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
   }
   .slideOutNav a:hover {
-    color: #ebb6a1;
-    transition: 0.3s;
+    color: #af8a7e;
+    transition: 0.4s;
+  }
+  .mainMenu {
+    margin-top: 30px;
   }
 }
 header {
-  color: #ebb6a1;
+  color: #fffbf7;
   font-family: "DM Serif Display", serif;
-  padding: 50px 0;
+  padding: 100px 0 150px;
   text-align: center;
+  background-color: #ebb6a1;
 }
 
 .about {
@@ -437,7 +468,7 @@ header {
 
 .skills {
   background-color: #ebb6a1;
-  color: #ffffff;
+  color: #fffbf7;
   padding: 80px 80px;
   text-align: center;
 }
@@ -475,6 +506,16 @@ header {
 .projectsFlex li {
   width: 48%;
 }
+.projectsFlex li button {
+  color: #af8a7e;
+  background-color: transparent;
+  border: 1px solid #af8a7e;
+}
+.projectsFlex li button:hover {
+  color: #fffbf7;
+  background-color: #af8a7e;
+  transition: 0.4s;
+}
 
 .contact {
   background-color: #ebb6a1;
@@ -491,7 +532,7 @@ textarea {
   border: none;
   border-bottom: 1px solid #af8a7e;
   background-color: transparent;
-  color: #fff;
+  color: #af8a7e;
   padding: 10px;
   font-family: "Jost", sans-serif;
 }
@@ -504,27 +545,23 @@ input {
 
 textarea {
   width: 85%;
-  border: 1px solid grey;
+  border: 1px solid #af8a7e;
 }
 
-button {
-  font-family: "Jost", sans-serif;
-  font-size: 1rem;
-  border: none;
-  background-color: #ffffff;
-  padding: 10px 30px;
-  margin-top: 20px;
+.contactButton {
+  border: 1px solid #fffbf7;
+  background-color: transparent;
+  color: #fffbf7;
 }
-
-button:hover {
-  background-color: #ebb6a1;
-  color: #ffffff;
-  cursor: pointer;
-  transition: 0.3s;
+.contactButton:hover {
+  background-color: #fffbf7;
+  color: #af8a7e;
+  transition: 0.4s;
 }
 
 .footer {
   background-color: #fffbf7;
   padding: 15px;
   text-align: center;
+  color: #ebb6a1;
 }/*# sourceMappingURL=styles.css.map */

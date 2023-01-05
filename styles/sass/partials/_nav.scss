@@ -1,6 +1,6 @@
 nav {
     background-color: $primary;
-    color: $quaternary;
+    color: $tertiary;
 }
 
 .navBar {
@@ -8,6 +8,7 @@ nav {
     justify-content: space-between;
     padding: 15px 0;
 }
+
 
 .navList {
     display: flex;
@@ -20,7 +21,12 @@ nav {
         letter-spacing: 0.1rem;
 
         a {
-            color: $quaternary;
+            color: $tertiary;
+
+            &:hover {
+                color: $secondary;
+                transition: 0.4s;
+            }
         }
     }
 }
@@ -30,14 +36,14 @@ nav {
     display: none;
 }
 
-.menuIcon,
-.menuClose {
+.menuIcon {
     background-color: transparent;
     margin: 0;
     padding: 0;
-    color: $quaternary;
-}
+    color: $tertiary;
+    border: none;
 
-.slideOutNav {
-    color: $quaternary;
+    &:hover {
+        color: $secondary;
+    }
 }

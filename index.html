@@ -15,12 +15,12 @@
 <body>
     <nav>
         <div class="wrapper navBar">
-            <h3>hs</h3>
+            <h3><a class="logo" href="index.html">hs</a></h3>
             <ul class="navList">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <button class="menuIcon" id="hamburger">
                 <i class="fa-solid fa-bars"></i>
@@ -32,16 +32,16 @@
                 <nav>
                     <ul class="mainMenu">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="projects.html">Work</a></li>
-                        <li><a href="Contact.html">contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </nav>
-    <header class="wrapper">
-        <div class="introDiv">
+    <header>
+        <div class="wrapper" class="introDiv">
             <h1>Haeun Song</h1>
             <h3>Toronto based web developer</h3>
         </div>
@@ -167,7 +167,7 @@
                         <label for="message" class="sr-only">Message</label>
                         <textarea type="message" id=message rows="5" cols="30" placeholder="Message"></textarea>
                         <br>
-                        <button type="submit" value="Submit">Send</button>
+                        <button class="contactButton" type="submit" value="Submit">Send</button>
                     </form>
                 </div> <!-- END .insertMsg -->
             </div>

@@ -14,7 +14,7 @@ textarea {
     border: none;
     border-bottom: 1px solid $secondary;
     background-color: transparent;
-    color: #fff;
+    color: $secondary;
     padding: 10px;
     font-family: $secondaryFont;
 }
@@ -27,21 +27,17 @@ input {
 
 textarea {
     width: 85%;
-    border: 1px solid grey;
+    border: 1px solid $secondary;
 }
 
-button {
-    font-family: $secondaryFont;
-    font-size: 1rem;
-    border: none;
-    background-color: $quaternary;
-    padding: 10px 30px;
-    margin-top: 20px;
-}
+.contactButton {
+    border: 1px solid $tertiary;
+    background-color: transparent;
+    color: $tertiary;
 
-button:hover {
-    background-color: $primary;
-    color: $quaternary;
-    cursor: pointer;
-    transition: 0.3s;
+    &:hover {
+        background-color: $tertiary;
+        color: $secondary;
+        transition: 0.4s;
+    }
 }
